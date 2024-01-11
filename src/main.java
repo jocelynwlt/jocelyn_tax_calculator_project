@@ -115,23 +115,31 @@ public class main {
 
     }
 
+    //calculating the tax from the second bracket
     public static double sbracket(double a){
         double stbrac = a*0.06;
         return stbrac;
     }
+
+    //calculating the tax from the thrid bracket
     public static double tbracket(double a){
         double ttbrac = a*0.1;
         return ttbrac;
     }
+
+    //calculating the tax from the fourth bracket
     public static double fbracket(double a){
         double ftbrac = a*0.14;
         return ftbrac;
     }
+
+    //calculating the tax from the fifth bracket
     public static double fibracket(double a){
         double fitbrac = a*0.17;
         return fitbrac;
     }
 
+    //check if the string given is a number
     public static boolean numcheck(String a){
         boolean tf = true;
         try {
