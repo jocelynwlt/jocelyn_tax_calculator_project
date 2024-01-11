@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class main {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter your name");
+        System.out.println("Please enter your name without spaces");
         String name = scanner.nextLine();
 
         //asking the user to enter their income, and test if their input is valid
