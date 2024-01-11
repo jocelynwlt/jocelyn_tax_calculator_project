@@ -58,7 +58,7 @@ public class main {
             boolean tfea = false;
             String stra = null;
             while (tfea == false) {
-                System.out.println("Please enter your income again, but please make sure what you only enter numbers");
+                System.out.println("Please enter your allowances again, but please make sure what you only enter numbers");
                 stra = scanner.next();
                 tfea = numcheck(stra);
             }
